@@ -1,21 +1,6 @@
 
 # Project setup
 
-Currently under development. The goal is a multi-part progressive web app boilerplate utilizing general purpose EVM tooling to achieve:
-
-- Progressive web app
-  - Cache data
-  - Offline detection
-- Reading
-  - Account balance
-  - Transaction data
-- Converting
-  - Transaction data from Hex to ASCII
-- Interacting with smart contract
-  - Calling contract function
-  - Signing Transaction
-
-
 ### Requirements
 For this project, you’ll need:
 - Node.js v12+ for the server
@@ -28,7 +13,7 @@ For this project, you’ll need:
 
 ### Configuring Project
 
-- In a new terminal session, navigate to the project folder part.
+- In a new terminal session, navigate to the project folder.
 - Install the project dependencies: ```npm i```
 - Navigate terminal session to _certs directory
 - Generate self-signed certificates

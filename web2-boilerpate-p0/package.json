@@ -1,0 +1,17 @@
+{
+  "name": "progressive-web-application",
+  "version": "0.0.1",
+  "description": "Alpha stage pressive web application for use with web3 technologies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server-debug": "nodemon --inspect server.js"
+  },
+  "author": "Brandy Camacho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
