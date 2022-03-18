@@ -15,10 +15,3 @@ export function tag (_tag, _text, _id, _onclick) {
   };
   return tag;
 }
-// var newTH = document.createElement('th');
-// newTH.innerHTML = 'Hello, World!';
-// newTH.onclick = function(){
-//   this.parentElement.removeChild(this);
-// };
-// var table = document.getElementById('content');
-// table.appendChild(newTH);

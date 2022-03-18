@@ -9,51 +9,6 @@ class Database {
     this.dbName = "dataFiles";
     // this.dbStore = "data";
   }
-//
-// isExisting(){
-// //   async function accessDb(){
-// //     return new Promise(function(resolve, reject){
-// //         let request = ...;
-// //         request.onsuccess = function(){
-// //             resolve(request.result);
-// //         }
-// //     });
-// // }
-// //
-// // accessDb().then(function(result){...});
-//
-//   // Create/open database
-//   let request = this.indexedDB.open(this.dbName, this.dbVersion),
-//       createObjectStore = function (dataBase) {
-//           // Create an objectStore
-//           console.log("Creating objectStore")
-//           dataBase.createObjectStore("data",{autoIncrement:true});
-//       },connectionTest = function(){
-//         console.log("Database is working as expected");
-//       };
-//
-//   request.onerror = function (event) {
-//       console.log("== Error accessing IndexedDB database ==");
-//   };
-//
-//   request.onsuccess = function (event) {
-//       console.log("Success accessing IndexedDB database");
-//       db = request.result;
-//       db.onerror = function (event) {
-//           console.log("Error creating/accessing IndexedDB database");
-//       };
-//       // Interim solution for Google Chrome to create an objectStore. Will be deprecated
-//       if (db.setVersion) {
-//           if (db.version != this.dbVersion) {
-//               var setVersion = db.setVersion(dbVersion);
-//               setVersion.onsuccess = function () {
-//                   createObjectStore(db);
-//                   connectionTest();
-//               };
-//           } else {connectionTest()};
-//       } else {connectionTest()};
-//     };
-// }
 
  setKV(_key, _value){
 
