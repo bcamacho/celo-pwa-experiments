@@ -1,3 +1,6 @@
+__Question:__ Why are multiple directories listed as p0+? 
+
+__Answer:__ To show the iteration of the codebase from web2 PWA to web3. Each p equals a project part that builds up from the previous codebase directory. 
 
 # Project setup
 
